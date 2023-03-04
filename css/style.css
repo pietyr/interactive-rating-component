@@ -72,6 +72,11 @@ li {
 	cursor: pointer;
 }
 
+li:hover {
+	background-color: var(--orange);
+	color: var(--white);
+}
+
 li:has(> input:checked) {
 	background-color: var(--medium-grey);
 	color: var(--white);
@@ -94,6 +99,10 @@ button {
 	letter-spacing: 0.1em;
 }
 
+p {
+	line-height: 1.5;
+}
+
 p.error {
 	color: var(--orange);
 }
@@ -110,6 +119,7 @@ p.selection {
 	width: fit-content;
 	padding: 0.5rem 1rem;
 	border-radius: 1rem;
+	line-height: unset;
 }
 
 footer {
