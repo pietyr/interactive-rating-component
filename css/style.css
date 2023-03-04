@@ -95,7 +95,21 @@ button {
 }
 
 p.error {
-	color: orange;
+	color: var(--orange);
+}
+
+div.thank-you {
+	text-align: center;
+}
+
+p.selection {
+	display: block;
+	margin: 1rem auto;
+	color: var(--orange);
+	background-color: var(--dark-blue-lighter);
+	width: fit-content;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
 }
 
 footer {
