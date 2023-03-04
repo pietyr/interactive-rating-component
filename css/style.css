@@ -49,6 +49,33 @@ p {
 	color: var(--light-grey);
 }
 
+ul {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	display: grid;
+	place-content: center;
+	font-weight: 700;
+	width: 2.75em;
+	height: 2.75em;
+	border-radius: 50%;
+	background-color: var(--dark-blue-lighter);
+	color: var(--light-grey);
+}
+
+li:has(> input:checked) {
+	background-color: var(--medium-grey);
+	color: var(--white);
+}
+
+input {
+	appearance: none;
+}
+
 .thank-you {
 	display: none;
 }
