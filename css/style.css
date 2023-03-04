@@ -70,6 +70,15 @@ li {
 	background-color: var(--dark-blue-lighter);
 	color: var(--light-grey);
 	cursor: pointer;
+	transition: 0.15s;
+}
+
+label {
+	display: grid;
+	place-content: center;
+	width: 2.75em;
+	height: 2.75em;
+	cursor: pointer;
 }
 
 li:hover {
@@ -80,6 +89,11 @@ li:hover {
 li:has(> input:checked) {
 	background-color: var(--medium-grey);
 	color: var(--white);
+}
+
+label,
+input {
+	cursor: pointer;
 }
 
 input {
@@ -97,6 +111,13 @@ button {
 	font-weight: 700;
 	font-size: 0.9375rem;
 	letter-spacing: 0.1em;
+	transition: 0.15s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--white);
+	color: var(--orange);
 }
 
 p {
