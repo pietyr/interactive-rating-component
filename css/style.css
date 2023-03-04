@@ -65,6 +65,7 @@ li {
 	border-radius: 50%;
 	background-color: var(--dark-blue-lighter);
 	color: var(--light-grey);
+	cursor: pointer;
 }
 
 li:has(> input:checked) {
@@ -74,6 +75,19 @@ li:has(> input:checked) {
 
 input {
 	appearance: none;
+}
+
+button {
+	width: 100%;
+	border-radius: 2rem;
+	padding: 0.8em;
+	text-transform: uppercase;
+	color: var(--white);
+	border: none;
+	background-color: var(--orange);
+	font-weight: 700;
+	font-size: 0.9375rem;
+	letter-spacing: 0.1em;
 }
 
 .thank-you {
