@@ -23,6 +23,14 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+main > div {
+	background-color: var(--dark-blue);
+	border-radius: 1rem;
+	padding: 1.5rem;
 }
 
 .thank-you {
